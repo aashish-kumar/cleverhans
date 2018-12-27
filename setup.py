@@ -2,7 +2,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 setup(name='cleverhans',
-      version='2.1.0',
+      version='3.0.1',
       url='https://github.com/tensorflow/cleverhans',
       license='MIT',
       install_requires=[
@@ -12,6 +12,7 @@ setup(name='cleverhans',
           'matplotlib',
           "mnist ~= 0.2",
           "numpy",
+          "tensorflow-probability",
       ],
       # Explicit dependence on TensorFlow is not supported.
       # See https://github.com/tensorflow/tensorflow/issues/7166
